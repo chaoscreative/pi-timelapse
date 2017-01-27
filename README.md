@@ -20,6 +20,10 @@ Gstreamer
 
 **keepAlive.py** is called regularly by CRON to restart the camera.py script in case it dies
 
+**whiteBalance.py** can be used if you want to adjust the white balance settings by capturing the current auto-whitebalance setting. The camera.py must be killed first (killall python) and you'll need a temp folder for the temporary images it creates. Then copy the whitebalance numbers it spits out into the capture() function in camera.py (camera.awb_gains).
+
+
+
 
 ###Sample CRON:
 <code>
