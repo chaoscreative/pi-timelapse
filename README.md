@@ -27,9 +27,8 @@ Uses PIL to detect dark images so it stops capturing when it's dark outside.
 
 
 
-###Sample CRON:
+###CRON
 <code>
-**m h  dom mon dow   command**
 
 0 11 * * * /usr/bin/python /home/pi/scripts/tl.py
 
