@@ -7,8 +7,6 @@ from datetime import datetime, timedelta
 from fractions import Fraction
 from PIL import Image
 
-# gst-launch-1.0 multifilesrc location=/media/usbstik/buffer/img%03d.jpg index=1 caps="image/jpeg,framerate=24/1" ! jpegdec ! omxh264enc ! avimux ! filesink location=timelapse.avi
-
 bufferSize = 3600 # 6 hours
 
 currentFilename = ""
@@ -30,7 +28,6 @@ def capture():
 	camera.iso = 200
 	time.sleep(2)
         for filename in camera.capture_continuous('/media/usbstik/buffer/img{timestamp:%Y-%m-%d-%H-%M-%S}.jpg'):
-        # for filename in camera.capture_continuous('/media/usbstik/buffer/img{counter:03d}.jpg'):
 	    currentFilename = filename
 	    bufferCount = len(fnmatch.filter(os.listdir('/media/usbstik/buffer'), '*.jpg'))
             oldest = min(glob.iglob('/media/usbstik/buffer/*.jpg'), key=os.path.getctime)
