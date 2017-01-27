@@ -27,7 +27,6 @@ def mkMovie():
 	numFiles = len(os.walk( path+ 'tl').next()[2])
 	logging.info('Making movie from %s jpgs' % (numFiles) )
 	filename = 'timelapse_'+time.strftime("%Y%m%d-%H%M%S")+'.mp4'
-	# os.system('gst-launch-1.0 multifilesrc location='+path+'tl/%04d.jpg index=1 caps="image/jpeg,framerate=12/1" ! jpegdec ! omxh264enc ! avimux ! filesink location='+path+'/tl/timelapse.avi')
 	os.system('gst-launch-1.0 multifilesrc location='+path+'tl/%04d.jpg index=1 caps="image/jpeg,width=1920,height=1080,framerate=23/1" ! jpegdec ! x264enc bitrate=3072 ! mp4mux ! filesink location='+path+'/tl/'+filename)
 	return filename
 
@@ -37,7 +36,7 @@ def sendMovie(filename):
 	os.system('scp '+path+'tl/'+filename+' pi:/media/timelapse/')
 
 def ulFile(filename):
-	# send movid to website server
+	# send movie to website server
 	svrPath = "/home/elephant/public_html/vid/"
 	newFile = "today11.mp4"
 	logging.info('putFile ' + filename)
