@@ -1,0 +1,520 @@
+Setting pipeline to PAUSED ...
+Pipeline is PREROLLING ...
+Redistribute latency...
+Pipeline is PREROLLED ...
+Setting pipeline to PLAYING ...
+New clock: GstSystemClock
+Got EOS from element "pipeline0".
+Execution ended after 0:16:03.056985545
+Setting pipeline to PAUSED ...
+Setting pipeline to READY ...
+Setting pipeline to NULL ...
+Freeing pipeline ...
+-------------------------------------------
+12/29/2016 11:00:02
+clearing out /tl
+moving buffer to tl
+renaming /tl contents to numbered files
+sending to pi
+putFile timelapse_20161229-110146.mp4
+scp /media/usbstik/tl/timelapse_20161229-110146.mp4 shit:/home/elephant/public_html/vid/;
+ssh shit 'cd /home/elephant/public_html/vid/; mv timelapse_20161229-110146.mp4 today11.mp4; chown elephant today11.mp4;' 
+INFO:root:-------------------------------------------
+INFO:root:12/29/2016 13:41:46
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20161229-134148.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20161229-134148.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:ssh shit 'cd /home/elephant/public_html/vid/; mv timelapse_20161229-134148.mp4 today11.mp4; chown elephant today11.mp4;' 
+INFO:root:-------------------------------------------
+INFO:root:12/29/2016 17:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20161229-170105.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20161229-170105.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:ssh shit 'cd /home/elephant/public_html/vid/; mv timelapse_20161229-170105.mp4 today11.mp4; chown elephant today11.mp4;' 
+INFO:root:-------------------------------------------
+INFO:root:12/30/2016 11:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20161230-110145.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20161230-110145.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:ssh shit 'cd /home/elephant/public_html/vid/; mv timelapse_20161230-110145.mp4 today11.mp4; chown elephant today11.mp4;' 
+INFO:root:-------------------------------------------
+INFO:root:12/30/2016 17:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20161230-170305.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20161230-170305.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:ssh shit 'cd /home/elephant/public_html/vid/; mv timelapse_20161230-170305.mp4 today11.mp4; chown elephant today11.mp4;' 
+INFO:root:-------------------------------------------
+INFO:root:12/31/2016 11:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20161231-110154.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20161231-110154.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:ssh shit 'cd /home/elephant/public_html/vid/; mv timelapse_20161231-110154.mp4 today11.mp4; chown elephant today11.mp4;' 
+INFO:root:-------------------------------------------
+INFO:root:12/31/2016 17:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20161231-170301.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20161231-170301.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:ssh shit 'cd /home/elephant/public_html/vid/; mv timelapse_20161231-170301.mp4 today11.mp4; chown elephant today11.mp4;' 
+INFO:root:-------------------------------------------
+INFO:root:01/01/2017 11:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170101-110147.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170101-110147.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:ssh shit 'cd /home/elephant/public_html/vid/; mv timelapse_20170101-110147.mp4 today11.mp4; chown elephant today11.mp4;' 
+INFO:root:-------------------------------------------
+INFO:root:01/01/2017 17:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170101-170306.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170101-170306.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:ssh shit 'cd /home/elephant/public_html/vid/; mv timelapse_20170101-170306.mp4 today11.mp4; chown elephant today11.mp4;' 
+INFO:root:-------------------------------------------
+INFO:root:01/02/2017 11:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170102-110203.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170102-110203.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:ssh shit 'cd /home/elephant/public_html/vid/; mv timelapse_20170102-110203.mp4 today11.mp4; chown elephant today11.mp4;' 
+INFO:root:-------------------------------------------
+INFO:root:01/02/2017 11:50:40
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170102-115117.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170102-115117.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:-------------------------------------------
+INFO:root:01/02/2017 17:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170102-170229.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170102-170229.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/03/2017 11:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170103-110150.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170103-110150.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/03/2017 17:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170103-170300.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170103-170300.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/04/2017 11:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170104-110145.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170104-110145.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/04/2017 17:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170104-170307.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170104-170307.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/05/2017 11:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170105-110146.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170105-110146.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/05/2017 17:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170105-170258.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170105-170258.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/06/2017 11:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170106-110147.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170106-110147.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/06/2017 17:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170106-170316.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170106-170316.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/07/2017 11:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170107-110151.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170107-110151.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/07/2017 17:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170107-170302.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170107-170302.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/08/2017 11:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170108-110144.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170108-110144.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/08/2017 17:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170108-170256.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170108-170256.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/09/2017 11:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170109-110158.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170109-110158.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/09/2017 17:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170109-170302.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170109-170302.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/10/2017 11:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170110-110153.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170110-110153.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/10/2017 17:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170110-170319.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170110-170319.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/11/2017 11:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170111-110212.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170111-110212.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/11/2017 17:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170111-170313.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170111-170313.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/12/2017 11:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170112-110149.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170112-110149.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/12/2017 17:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170112-170314.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170112-170314.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/13/2017 11:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170113-110150.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170113-110150.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/13/2017 17:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170113-170307.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170113-170307.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/14/2017 11:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170114-110149.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170114-110149.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/14/2017 17:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170114-170315.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170114-170315.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/15/2017 11:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170115-110150.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170115-110150.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/15/2017 17:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170115-170315.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170115-170315.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/20/2017 11:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170120-110026.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170120-110026.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/20/2017 17:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170120-170324.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170120-170324.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/21/2017 11:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170121-110154.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170121-110154.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/21/2017 17:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170121-170319.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170121-170319.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/22/2017 11:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170122-110200.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170122-110200.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/22/2017 17:00:02
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170122-170318.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170122-170318.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/23/2017 11:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170123-110157.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170123-110157.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/23/2017 17:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170123-170320.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170123-170320.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/24/2017 11:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170124-110153.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170124-110153.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/24/2017 17:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170124-170320.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170124-170320.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/25/2017 11:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170125-110153.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170125-110153.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/25/2017 17:00:01
+INFO:root:clearing out /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170125-170321.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170125-170321.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/26/2017 11:00:02
+INFO:root:clearing out 1940 files from /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170126-110157.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170126-110157.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/26/2017 11:31:25
+INFO:root:-------------------------------------------
+INFO:root:01/26/2017 11:32:58
+INFO:root:clearing out 237 files from /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170126-113309.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170126-113309.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/26/2017 14:16:38
+INFO:root:clearing out 1378 files from /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170126-141745.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170126-141745.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/26/2017 15:42:22
+INFO:root:clearing out 697 files from /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:Making movie from 697 jpgs
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170126-154253.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170126-154253.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/26/2017 17:00:01
+INFO:root:clearing out 576 files from /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:Making movie from 576 jpgs
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170126-170025.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170126-170025.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
+INFO:root:-------------------------------------------
+INFO:root:01/27/2017 11:00:01
+INFO:root:clearing out 1938 files from /tl
+INFO:root:moving buffer to tl
+INFO:root:renaming /tl contents to numbered files
+INFO:root:Making movie from 1938 jpgs
+INFO:root:sending to pi
+INFO:root:putFile timelapse_20170127-110151.mp4
+INFO:root:scp /media/usbstik/tl/timelapse_20170127-110151.mp4 shit:/home/elephant/public_html/vid/;
+INFO:root:==== done! ====
