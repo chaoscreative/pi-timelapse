@@ -1,7 +1,7 @@
 # pi-timelapse
 An always-on timelapse using Raspberry Pi camera and Picamera library. Creates 2-3 timelapse movies per day around 3 minutes long (depending on daylight hours). Once a movie is made it archives it on NAS and copies it to a remote webserver for viewing. Webserver code to be posted soon. Example implementation: http://elephantmountain.ca
 
-Features dark detection so it will stop capturing when it's dark outside. 
+Uses PIL to detect dark images so it stops capturing when it's dark outside. 
 
 Dependencies:
 PiCamera library, Python Imaging Library (PIL),
