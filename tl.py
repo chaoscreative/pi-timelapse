@@ -6,21 +6,6 @@ logging.basicConfig(filename='/home/pi/scripts/tl.log',level=logging.DEBUG)
 
 path = '/media/usbstik/';  #initialise the path with the current directory.
 
-def checkAge():
-	# get most recent file
-	files = [os.path.join(path+'buffer/', x) for x in os.listdir(path+'buffer')]
-	latest = max(files , key = os.path.getctime)
-	fileCreation = os.path.getmtime(latest)
-	# see if it is > 30 min old
-	now = time.time()
-	halfhour_ago = now - 30*60
-	logging.info(latest)
-	logging.info(fileCreation)
-	logging.info(halfhour_ago)
-	if fileCreation < halfhour_ago:
-    		return False
-	return True
-
 def prepFiles():
 	numFiles = len(os.walk( path+ 'buffer').next()[2])
 	logging.info('clearing out %s files from /tl' % (numFiles) )
@@ -66,7 +51,6 @@ def ulFile(filename):
 logging.info("-------------------------------------------")
 logging.info(time.strftime("%m/%d/%Y %H:%M:%S"))
 
-#if checkAge():
 if prepFiles():
 	filename = mkMovie()
 	sendMovie(filename)
