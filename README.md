@@ -1,5 +1,7 @@
 # pi-timelapse
-An always-on timelapse webcam using a Raspberry Pi, Pi camera module and the Picamera Python library. Creates 2-3 timelapse movies per day around 3 minutes long (depending on daylight hours). Once a movie is made it archives it on NAS and copies it to a remote webserver for viewing. Webserver code to be posted soon. Example implementation: http://elephantmountain.ca
+An always-on timelapse webcam using a Raspberry Pi, Pi camera module and the Picamera Python library. Creates 2-3 timelapse movies per day around 3 minutes long (depending on daylight hours). Once a movie is made it archives it on NAS and copies it to a remote webserver for viewing. Webserver code to be posted soon. 
+
+Example implementation: http://elephantmountain.ca
 
 ###Dependencies
 
@@ -22,34 +24,21 @@ An always-on timelapse webcam using a Raspberry Pi, Pi camera module and the Pic
 
 * **whiteBalance.py** can be used if you want to adjust the white balance settings by capturing the current auto-whitebalance setting. The camera.py must be killed first (killall python) and you'll need a temp folder for the temporary images it creates (~/scripts/temp/). Then copy the whitebalance numbers it spits out into the capture() function in camera.py (camera.awb_gains).
 
-
-
-
-###CRON
-<code>
-
-0 11 * * * /usr/bin/python /home/pi/scripts/tl.py
-
-0 17 * * * /usr/bin/python /home/pi/scripts/tl.py
-
-0 21 * * * /usr/bin/python /home/pi/scripts/tl.py
-
-0 * * * * /usr/bin/python /home/pi/scripts/hourly.py
-
-* * * * * /usr/bin/python /home/pi/scripts/minutely.py
-
-*/5 * * * * /home/pi/scripts/keepalive.sh
-
-</code>
-
-
 ###Installation
 
 - clone these files into a ~/scripts directory
-- add the above to CRON
+- add to CRON: 
+  - 0 11 * * * /usr/bin/python /home/pi/scripts/tl.py
+  - 0 17 * * * /usr/bin/python /home/pi/scripts/tl.py
+  - 0 21 * * * /usr/bin/python /home/pi/scripts/tl.py
+  - 0 * * * * /usr/bin/python /home/pi/scripts/hourly.py
+  - * * * * * /usr/bin/python /home/pi/scripts/minutely.py
+  - */5 * * * * /home/pi/scripts/keepalive.sh
 - add camera.py to your init.d so it runs on boot (https://www.raspberrypi.org/forums/viewtopic.php?f=48&t=70520)
 - create the directories needed for storing images. Mine are /media/usbstik/buffer/ and /media/usbstik/tl/
 - change the file path if needed in camera.py and tl.py
 - comment out anything you aren't using like the archiving or sending to webserver. If you are using these you'll need to set up SSH shortcuts to those systems in order for the SCP commands in these scripts to work
+
+###Notes
 
 Quite a bit of local storage is required because we are saving thousands of images each day, each of which can be several MB. I'm using a 32GB usb stick which mounts to /media/usbstik on boot. I'm also archiving a copy of timelapse movies (via SCP) to a directory on my NAS, which has 2TB.
