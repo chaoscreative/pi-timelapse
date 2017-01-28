@@ -10,7 +10,7 @@ from PIL import Image
 bufferSize = 3600 # 6 hours
 
 currentFilename = ""
-storagePath = "/media/usbstik/buffer"
+storagePath = "/media/usbstik/buffer/"
 
 print('Starting er up..')
 
@@ -35,7 +35,7 @@ def capture():
             print('Captured %s' % filename + ' ct: ' + `bufferCount` )
             if(bufferCount >= bufferSize):
                 os.system('rm ' + oldest)
-                # print('removed '+oldest)
+                print('removed '+oldest)
 	    filter(currentFilename)
 	    time.sleep(6) # wait 6 sec
 
