@@ -59,5 +59,3 @@ if prepFiles():
 	# TODO use Request to send call to Slack notification
 	#os.system('curl -X POST --data-urlencode 'payload={"channel": "#timelapse", "username": "webhookbot", "text": "This is posted to #timelapse and comes from a bot named webhookbot.", "icon_emoji": ":ghost:"}' https://hooks.slack.com/services/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
 
-
-# convert -resize 800x600 -delay 10 -loop 0 [criteria]*.jpg animation.gif
