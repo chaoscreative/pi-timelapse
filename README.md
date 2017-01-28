@@ -43,3 +43,15 @@ Uses PIL to detect dark images so it stops capturing when it's dark outside.
 */5 * * * * /home/pi/scripts/keepalive.sh
 
 </code>
+
+
+###Installation
+
+- clone these files into a ~/scripts directory
+- add the above to CRON
+- add camera.py to init.d so it runs on boot https://www.raspberrypi.org/forums/viewtopic.php?f=48&t=70520
+- create the directories needed for storing images. Mine are /media/usbstik/buffer/ and /media/usbstik/tl/
+- change the file path if needed in camera.py and tl.py.
+- comment out anything you aren't using like the archiving or sending to webserver. If you are, you'll need to set up SSH shortcuts to those systems in order for the SCP commands in these scripts to work
+
+Quite a bit of local storage is required because we are saving thousands of images each day, each of which can be several MB. I'm using a 32GB usb stick which mounts to /media/usbstik on boot. I'm also archiving a copy of timelapse movies (via SCP) to a directory on my NAS, which has 2TB.
