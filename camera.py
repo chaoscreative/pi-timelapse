@@ -10,6 +10,7 @@ from PIL import Image
 bufferSize = 3600 # 6 hours
 
 currentFilename = ""
+storagePath = "/media/usbstik/buffer"
 
 print('Starting er up..')
 
@@ -27,10 +28,10 @@ def capture():
 	camera.sharpness = 80	
 	camera.iso = 200
 	time.sleep(2)
-        for filename in camera.capture_continuous('/media/usbstik/buffer/img{timestamp:%Y-%m-%d-%H-%M-%S}.jpg'):
+        for filename in camera.capture_continuous(storagePath + 'img{timestamp:%Y-%m-%d-%H-%M-%S}.jpg'):
 	    currentFilename = filename
-	    bufferCount = len(fnmatch.filter(os.listdir('/media/usbstik/buffer'), '*.jpg'))
-            oldest = min(glob.iglob('/media/usbstik/buffer/*.jpg'), key=os.path.getctime)
+	    bufferCount = len(fnmatch.filter(os.listdir(storagePath), '*.jpg'))
+            oldest = min(glob.iglob(storagePath+'*.jpg'), key=os.path.getctime)
             print('Captured %s' % filename + ' ct: ' + `bufferCount` )
             if(bufferCount >= bufferSize):
                 os.system('rm ' + oldest)

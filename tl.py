@@ -4,7 +4,7 @@ import ftplib
 import logging
 logging.basicConfig(filename='/home/pi/scripts/tl.log',level=logging.DEBUG)
 
-path = '/media/usbstik/';  #initialise the path with the current directory.
+path = '/media/usbstik/';
 
 def prepFiles():
 	numFiles = len(os.walk( path+ 'buffer').next()[2])
