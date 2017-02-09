@@ -34,9 +34,9 @@ Example implementation: http://elephantmountain.ca
   - 0 * * * * /usr/bin/python /home/pi/scripts/hourly.py
   - * * * * * /usr/bin/python /home/pi/scripts/minutely.py
   - */5 * * * * /home/pi/scripts/keepalive.sh
-- add camera.py to your init.d so it runs on boot (https://www.raspberrypi.org/forums/viewtopic.php?f=48&t=70520)
-- create the directories needed for storing images. Mine are /media/usbstik/buffer/ and /media/usbstik/tl/
-- change the file path if needed in camera.py and tl.py
+- add camera.py to your /etc/init.d so it runs on boot (https://www.raspberrypi.org/forums/viewtopic.php?f=48&t=70520)
+- create the directories needed for storing images. Mine are /media/usbstik/buffer/ and /media/usbstik/tl/ which are mapped to a USB hard drive
+- change the file path if needed in ~/scripts/camera.py and ~/scripts/tl.py
 - comment out anything you aren't using like the archiving or sending to webserver. If you are using these you'll need to set up SSH shortcuts to those systems in order for the SCP commands in these scripts to work
 
 ###Notes
